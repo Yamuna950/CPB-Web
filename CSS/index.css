@@ -1,16 +1,21 @@
-.body {
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box ;
+}
+body {
     margin: 0;
     padding: 0;
 }
 .container {
-    margin: 0;
-    padding: 0;
-    /* border: 2px solid; */
+    margin: 0px;
+    padding: 0px;
    
 }
 .nav {
     box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
-    padding: 10px;
+    padding: 20px;
+    /* border: 2px solid; */
 }
 .nav ul {
     list-style: none;
@@ -19,6 +24,10 @@
 .nav a {
     text-decoration: none;
     font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background: -webkit-linear-gradient(rgb(185, 90, 90), #333);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 .nav li {
     display: inline;
@@ -27,16 +36,17 @@
 #logo {
     width: 4%;
     position: absolute;
-    margin-top: -4.5%;
-    margin-left: 2%;
+    margin-top: -4.25%;
+    margin-left: 1%;
    
 }
 .first {
     display: flex;
+    background-color: rgb(24,90,226);
 
 }
 .first-main {
-    width: 50%;
+    width: 45%;
     /* border: 2px solid; */
 
 }
@@ -45,13 +55,43 @@
     width: 90%;
 
 }
+.first-text {
+    width: 55%;
+}
 .first-text h1 {
-  font-size: 60px;
-  margin-top: 30%;
+  font-size: 40px;
+  margin-top: 20%;
+  font-weight: 100;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  width: 80%;
+  text-align:left;
+  background: -webkit-linear-gradient(rgb(255, 255, 255), rgb(213, 215, 214));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 5%;
+}
+.first-text p {
+    color: white;
+    width: 80%;
+    text-align: justify;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    font-weight: 100;
+    margin-bottom: 10%;
 }
 .first-text img {
     width: 40%;
     margin-left: 20%;
+}
+.first-text a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 100;
+    border: 1px solid white;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 10px;
 }
 
 .second {
